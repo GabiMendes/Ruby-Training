@@ -7,9 +7,5 @@
 # n=-5, m=5:  0
 
 def paperwork(n, m)
-    if n <= 0 || m <= 0
-      return 0
-    else
-      return n * m
-    end
-  end  
+    n <= 0 || m <= 0 ? 0 : n * m
+end
